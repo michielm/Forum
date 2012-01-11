@@ -2,38 +2,66 @@ div.Container
 {	
 	width: 600px;
 	height: 100%;
-	border-color:purple;
-	border-width: 4px;
-	border-style: ridge;
 	margin: 0 auto;
 	padding: 0;
-	background: Green;
 	overflow:hidden;
+	font-family: "trebuchet ms", verdana;
 }
 
 div.Header
 { 	
 	height: 100px;
+	background: #003366;
 }
 
 div.Center
 {
-	background: yellow;
+	background: #ffffff;
 	margin: 0 0 -120px 0;
 	height: 100%;
 }
 
+div.Title
+{
+	float: left;
+	width: 300px;
+}
+
+div.Topics
+{
+	float: left;
+	width: 100px;	
+}
+
+
+div.Replies
+{
+	float: left;
+	width: 100px;
+}
+
+div.LastPost
+{
+	float: left;
+	width: 100px;
+}
+
+
+
+
+
 div.Footer
 {
 	height:20px;
-	background:green;
-	color: red;
+	background:#cccc90;
 	text-align: center;
 }
 
 html, body
 {
 	height: 100%;
-	background: White;	
+	background: #cccccc;	
 }
+
+
 
